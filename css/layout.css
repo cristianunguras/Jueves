@@ -1,4 +1,43 @@
 /* CSS LAYOUT */
+
+
 /* **************************************************************** */
 
 
+/* Pagina inicio */
+
+h1 {
+    grid-column: 2/3;
+}
+
+.banner {
+    height: 480px;
+    background-color: #0066FF5C;
+    width: 100vw;
+    grid-column: 1/4;
+}
+
+.telefono {
+    height: 21px;
+    width: 153px;
+    padding: 14.5px;
+    background-color: #FFCB13;
+    grid-column: 2/3;
+}
+
+h4 {
+    grid-column: 3/4;
+}
+
+.anyo1988,
+.anyo1994 {
+    grid-column: 2/5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fin_inicio {
+    height: 200px;
+    background-color: #F99D9D;
+    grid-column: 2/5;
+}

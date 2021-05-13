@@ -1,2 +1,27 @@
 /* CSS GRID */
+
+
 /* **************************************************************** */
+
+
+/* Pagina inicio */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 17px;
+}
+
+.telefono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: 0px repeat(3, 1fr) 0px;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 16px;
+}
