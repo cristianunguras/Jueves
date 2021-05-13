@@ -6,38 +6,139 @@
 
 /* Pagina inicio */
 
-h1 {
-    grid-column: 2/3;
+header h1 {
+    grid-column: 1 / span-1;
+    justify-self: center;
+    align-self: center;
 }
 
 .banner {
-    height: 480px;
-    background-color: #0066FF5C;
-    width: 100vw;
-    grid-column: 1/4;
+    grid-column: 1 / span-1;
 }
 
 .telefono {
-    height: 21px;
-    width: 153px;
-    padding: 14.5px;
+    height: 50px;
+    grid-column: 1 / span-1;
+    justify-self: center;
+    align-self: center;
     background-color: #FFCB13;
+    padding: 14.5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inicio h3 {
+    grid-column: 1 / span-1;
+    justify-self: center;
+    align-self: center;
+}
+
+.inicio__texto {
+    grid-column: 2/6;
+}
+
+h3.inicio__texto__subgrid1988 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: start;
+}
+
+p.inicio__texto__subgrid1988 {
     grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: end;
+    align-self: end;
+    padding-top: 18px;
 }
 
-h4 {
-    grid-column: 3/4;
+h3.inicio__texto__subgrid1994 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: start;
+    align-self: start;
 }
 
-.anyo1988,
-.anyo1994 {
-    grid-column: 2/5;
-    display: flex;
-    justify-content: space-between;
+p.inicio__texto__subgrid1994 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: end;
+    align-self: end;
+    padding-top: 18px;
 }
 
-.fin_inicio {
+.inicio__cajaFinal {
     height: 200px;
     background-color: #F99D9D;
-    grid-column: 2/5;
+    grid-column: 2/6;
+}
+
+.servicios__fotos {
+    grid-column: 2/6;
+}
+
+.contactar {
+    padding-top: 42px;
+    padding-bottom: 33px;
+}
+
+.contactar h3 {
+    grid-column: 1 / span-1;
+    justify-self: center;
+    align-self: center;
+}
+
+.contactar_email {
+    grid-column: 2 / 6;
+}
+
+.registro {
+    height: 41px;
+    grid-column: 1 / span-1;
+    justify-self: center;
+    align-self: center;
+    background-color: #FFCB13;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contactar_redes {
+    grid-column: 2/6;
+}
+
+h3.contactar_redes__contacto {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: start;
+}
+
+ul.contactar_redes__contacto {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: start;
+    padding-top: 18px;
+}
+
+h3.contactar_redes__red {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: start;
+    align-self: start;
+}
+
+ul.contactar_redes__red {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: start;
+    align-self: start;
+    padding-top: 18px;
+}
+
+footer p {
+    grid-column: 2/6;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
 }

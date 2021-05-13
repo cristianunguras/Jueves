@@ -2,35 +2,97 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sr. Mueble</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
         <h1>Sr. Mueble</h1>
-        <section class="banner"></section>
-        <section class="telefono">
-            <p>+34 666 666 666</p>
+        <section class="banner">
+            <picture>
+                <!-- smartphone -->
+                <source srcset="
+              img/banner_sillon.jpg    1x,
+              img/banner_sillon@2x.jpg 2x,
+              img/banner_sillon@3x.jpg 3x
+            " media="(min-width:300px) and (orientation: portrait)" />
+                <img src="" alt="banner_sillon" />
+            </picture>
         </section>
+
+        <a class="telefono">+34 666 666 666</a>
     </header>
     <main>
         <section class="inicio">
-            <h4>¿Quienes somos?</h4>
-            <article class="anyo1988">
-                <h3>1988</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.</p>
-            </article>
-            <article class="anyo1994">
-                <h3>1994</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.</p>
-            </article>
-            <article class="fin_inicio"></article>
+            <h3>¿Quienes somos?</h3>
+            <section class="inicio__texto inicio__texto__subgrid">
+                <h3 class="inicio__texto__subgrid1988">1988</h3>
+                <p class="inicio__texto__subgrid1988">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.
+                </p>
+                <h3 class="inicio__texto__subgrid1994">1994</h3>
+                <p class="inicio__texto__subgrid1994">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sollicitudin et tellus.
+                </p>
+            </section>
+            <section class="inicio__cajaFinal"></section>
+        </section>
+        <section class="servicios">
+            <picture class="servicios__fotos">
+                <!-- smartphone -->
+                <source srcset="
+              img/sofa_amarillo.jpg    1x,
+              img/sofa_amarillo@2x.jpg 2x,
+              img/sofa_amarillo@3x.jpg 3x
+            " media="(min-width:300px) and (orientation: portrait)" />
+                <img src="" alt="banner_sillon" />
+            </picture>
+            <picture class="servicios__fotos">
+                <!-- smartphone -->
+                <source srcset="
+              img/sofa_rojo.jpg    1x,
+              img/sofa_rojo@2x.jpg 2x,
+              img/sofa_rojo@3x.jpg 3x
+            " media="(min-width:300px) and (orientation: portrait)" />
+                <img src="" alt="banner_sillon" />
+            </picture>
+            <picture class="servicios__fotos">
+                <!-- smartphone -->
+                <source srcset="
+              img/sofa_verde.jpg    1x,
+              img/sofa_verde@2x.jpg 2x,
+              img/sofa_verde@3x.jpg 3x
+            " media="(min-width:300px) and (orientation: portrait)" />
+                <img src="" alt="banner_sillon" />
+            </picture>
+        </section>
+        <section class="contactar">
+            <h3>¿Quieres recibir nuestras novedades?</h3>
+            <input class="contactar_email" type=" email " placeholder="E-mail " />
+            <a class="registro">REGISTRATE</a>
         </section>
     </main>
+    <footer>
+        <section class="contactar_redes">
+            <h3 class="contactar_redes__contacto">Contactar</h3>
+            <ul class="contactar_redes__contacto">
+                <li>Dirección Plaza España, 34</li>
+                <li>Palma de Mallorca</li>
+                <li>info@srmuebles.com</li>
+            </ul>
+            <h3 class="contactar_redes__red">Redes</h3>
+            <ul class="contactar_redes__red">
+                <li>Twitter</li>
+                <li>Pinterest</li>
+                <li>Instagram</li>
+            </ul>
+        </section>
+        <p>Copyright 2021 - SrMueble</p>
+    </footer>
 </body>
 
 </html>

@@ -1,2 +1,13 @@
 /* CSS COLOR */
+
+
 /* **************************************************************** */
+
+body {
+    background-color: #F5F5F5;
+}
+
+footer {
+    background: #3A3A3A;
+    color: white;
+}
