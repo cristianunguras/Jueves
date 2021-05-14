@@ -9,7 +9,7 @@
 header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: repeat(3, auto);
     grid-gap: 17px;
 }
 
@@ -29,7 +29,7 @@ header {
 
 .servicios {
     display: grid;
-    grid-template-columns: 0px repeat(4, 1fr);
+    grid-template-columns: 0px repeat(4, 1fr) 0px;
     grid-template-rows: repeat(3, auto);
     grid-gap: 16px;
 }
