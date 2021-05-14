@@ -34,7 +34,7 @@ header h1 {
 }
 
 .inicio__texto {
-    grid-column: 2/6;
+    grid-column: 2/5;
 }
 
 h3.inicio__texto__subgrid1988 {
@@ -137,7 +137,7 @@ ul.contactar_redes__red {
 }
 
 footer p {
-    grid-column: 2/6;
+    grid-column: 1/6;
     grid-row: 3/4;
     justify-self: center;
     align-self: center;
